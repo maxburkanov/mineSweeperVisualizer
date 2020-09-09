@@ -1,0 +1,57 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(246, 244, 244, 0.883);
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+.title {
+  text-align: center;
+  padding: 100px 0 0 0;
+  font-size: 2em;
+  letter-spacing: 1px;
+  font-weight: 700;
+}
+.main {
+  width: 360px;
+  margin: 80px auto;
+  cursor: pointer;
+}
+.node {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPLYyK7Kte2v8s7tFLTB_ifZRHMDr3ZiLsUDiQL21bcPt-IxYturshsFXiC8J_vuux4lqFa_qB4iE&usqp=CAc');
+  background-size: cover;
+  box-shadow: 0px 0px 1px black;
+  width: 45px;
+  height: 45px;
+  float: left;
+  transition: 1s;
+}
+.opened {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQK74R4Kh8_fX4lZgD1luFkit17xMEXvfCMvVxeIrOjKIxQ9pi9rx_5J9yZslT-HKGJDHXhmyRe&usqp=CAc');
+  opacity: 0.5;
+  transition: 0.3s;
+  text-align: center;
+  padding: 7px;
+  font-size: 32px;
+}
+.bomb {
+  background-image: url('https://png.pngtree.com/png-vector/20190814/ourmid/pngtree-cartoon-bomb-background-and-explosive-light-vector---illustration-png-image_1692128.jpg');
+}
+.picked {
+  border: 2px solid red;
+}
+.refresh {
+  clear: both;
+  margin: auto;
+  padding: 20px 0;
+  width: 360px;
+}
+.btn {
+  width: 100%;
+  padding: 10px;
+  background-color: teal;
+  border: 0;
+  border-radius: 5px;
+  color: antiquewhite;
+  font-size: 20px;
+}
